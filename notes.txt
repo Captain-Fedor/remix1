@@ -1,0 +1,30 @@
+ctl alt L json file readable format
+python-dotenv
+infura.oi
+chainid.network site to check the chain ID
+https://github.com/eth-brownie/brownie
+pipx is to install packages into env
+* for some reason unable to install brownie with pipx only pip
+
+# First, make sure you have Python 3.9 installed
+python3.9 -m venv .venv-brownie
+
+# On Windows:
+.venv-brownie\Scripts\activate
+
+# On Windows:
+.venv-brownie\Scripts\activate
+
+pip install --upgrade pip
+pip install --upgrade setuptools wheel build
+pip install eth-brownie==1.19.3
+
+option 2
+wheel>=0.35.1
+setuptools>=65.5.1
+eth-brownie>=1.19.0
+
+pip install -r requirements.txt
+
+
+
