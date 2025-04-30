@@ -26,5 +26,13 @@ eth-brownie>=1.19.0
 
 pip install -r requirements.txt
 
+to deactivate and delete env: deactivate
+Remove-Item -Recurse -Force .venv1
+
+create and activate env
+python -m venv .venv1
+.\.venv1\Scripts\Activate.ps1
+
+
 
 

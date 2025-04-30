@@ -72,7 +72,6 @@ signed_txn = w3.eth.account.sign_transaction(transaction, private_key=private_ke
 send_store_txn = w3.eth.send_raw_transaction(signed_txn.raw_transaction)
 tx_receipt = w3.eth.wait_for_transaction_receipt(send_store_txn)
 
-
 # WORKING WITH CONTRACT
 
 simple_storage = w3.eth.contract(address=tx_receipt.contractAddress, abi=abi)
