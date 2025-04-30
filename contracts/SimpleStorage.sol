@@ -33,7 +33,7 @@ contract SimpleStorage {
     }
 
     function retrieve() public view returns (uint256){
-        return favoriteNumber*2;
+        return favoriteNumber;
     }
 
     function retrieve2(uint256 favoriteNumber) public pure returns(uint256) {

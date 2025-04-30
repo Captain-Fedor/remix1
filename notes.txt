@@ -33,6 +33,12 @@ create and activate env
 python -m venv .venv1
 .\.venv1\Scripts\Activate.ps1
 
+brownie flags:
+-k
+-pbd
+-s
+flags are taken from pytest
+
 
 
 
