@@ -7,3 +7,5 @@ networks:
   default: development
   sepolia:
     verify: True
+    host: https://sepolia.infura.io/v3/${WEB3_INFURA_PROJECT_ID}
+    chainid: 11155111
